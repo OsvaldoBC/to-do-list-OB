@@ -8,7 +8,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-    template: './src/index.html',
+      template: './src/index.html',
     }),
   ],
   mode: 'development',
@@ -18,15 +18,16 @@ module.exports = {
     clean: true,
     publicPath: '/',
   },
- // optimization: {
- //   runtimeChunk: 'single',
- // },
+  // optimization: {
+  //   runtimeChunk: 'single',
+  // },
   module: {
     rules: [
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
+
     ],
   },
 };
