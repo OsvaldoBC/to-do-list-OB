@@ -1,26 +1,37 @@
 import _ from 'lodash';
 import './style.css';
-import Icon from './icon.png';
-import Data from './data.xml';
-import Notes from './data.csv';
+const taskList = document.querySelector('.task-list');
 
-function component() {
-    const element = document.createElement('div');
-  
-    // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
-    // Add the image to our existing div.
-  const myIcon = new Image();
-  myIcon.src = Icon;
+const taskArr = [
+  {
+    index: 1,
+    description: 'Task 1 Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    completed: false,
+  },
+  {
+    index: 2,
+    description: 'Task 2 Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    completed: false,
+  },
+  {
+    index: 3,
+    description: 'Task 3 Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    completed: false,
+  },
+  {
+    index: 4,
+    description: 'Task 4 Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    completed: false,
+  },
+  {
+    index: 5,
+    description: 'Task 5 Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    completed: false,
+  },
+];
 
-  element.appendChild(myIcon);
-
-  console.log(Data);
-  console.log(Notes);
-  
-    return element;
-  }
-  
-  document.body.appendChild(component());
-  
+taskList.innerHTML = taskArr.map((task) => `<li id="task-${task.index}" class="task-item b-bottom box">
+  <input type="checkbox" class="checkbox">
+  <span class="task-text">${task.description}</span>
+  <button class="delete">X</button>
+</li>`).join('');
