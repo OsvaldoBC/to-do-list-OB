@@ -9,7 +9,7 @@ In this project, I will build a simple HTML list of To Do tasks.  This simple we
 
 ## Live Demo
 
-[Live Demo Link](https://osvaldobc.github.io/trafficConferencePage/)
+[Live Demo Link][https://osvaldobc.github.io/to-do-list-OB/dist/)]
 
 
 ## interactions
