@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 - `npm install --save-dev @babel/plugin-transform-modules-commonjs`
 -`npm install --save-dev jest`
 
--to run it press the next npm  `npm run test`
+- to run it press the next npm  `npm run test`
 
 ## Built With
 
