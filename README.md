@@ -12,14 +12,18 @@ In this project, I will build a simple HTML list of To Do tasks.  This simple we
 [Live Demo Link][https://osvaldobc.github.io/to-do-list-OB/dist/)]
 
 
-## interactions
-
-
 ## Getting Started
 
-The steps to clone and the project locally is :
-git clone git@github.com:OsvaldoBC/to-do-list-OB.git
+if you want this project, follow the next intruccions:
+To get a local copy up and running follow these simple example steps.
 
+-go to the code the repository TO-DO-LIST-OB
+-Clone the reopistory, this is the link https://github.com/OsvaldoBC/to-do-list-OB.git usi
+-install the next npm items to run it 
+- `npm install --save-dev @babel/plugin-transform-modules-commonjs`
+-`npm install --save-dev jest`
+
+-to run it press the next npm  `npm run test`
 
 ## Built With
 
@@ -39,6 +43,12 @@ No prerequisite required
 - Twitter : [@OsvaldoBarrio20](https://twitter.com/OsvaldoBarrio20)
 - GitHub  : [@OsvaldoBC](https://github.com/OsvaldoBC)
 - LinkedIn: [osvaldo-barrios-data-science](https://linkedin.com/in/osvaldo-barrios-data-science)
+
+👤 **Cesar Alberto Valencia Aguilar**
+
+- GitHub: [https://github.com/cvalencia1991](https://github.com/cvalencia1991)
+- Twitter: [https://twitter.com/cvalenciaguilar](@cvalenciaguilar)
+- LinkedIn: [https://www.linkedin.com/in/cvalenciaguilar/](www.linkedin.com/in/cvalenciaguilar)
 
 
 ## 🤝 Contributing
