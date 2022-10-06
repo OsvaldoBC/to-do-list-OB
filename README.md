@@ -17,9 +17,9 @@ In this project, I will build a simple HTML list of To Do tasks.  This simple we
 if you want this project, follow the next intruccions:
 To get a local copy up and running follow these simple example steps.
 
--go to the code the repository TO-DO-LIST-OB
--Clone the reopistory, this is the link https://github.com/OsvaldoBC/to-do-list-OB.git usi
--install the next npm items to run it 
+- go to the code the repository TO-DO-LIST-OB
+- Clone the reopistory, this is the link https://github.com/OsvaldoBC/to-do-list-OB.git usi
+- install the next npm items to run it 
 - `npm install --save-dev @babel/plugin-transform-modules-commonjs`
 -`npm install --save-dev jest`
 
